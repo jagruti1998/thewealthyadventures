@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wealthy Adventures</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #222;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-center {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #f1c40f;
+    }
+
+    .logo {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.5rem;
+      font-weight: normal;
+      color: white;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+    }
+
+    h1, h2 {
+      color: #000;
+      margin-bottom: 1rem;
+    }
+
+    p, label {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    footer .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    footer a {
+      color: #ddd;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .subscribe-box input[type=email] {
+      width: 80%;
+      padding: 8px;
+      margin-top: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    .subscribe-box button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      border: none;
+      background-color: #f1c40f;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration: none; color: white; font-family: 'Great Vibes', cursive; font-size: 2.5rem;">W</a>
+    </div>
+    <div class="nav-center nav-links">
+      <a href="index.html">Home</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to Wealthy Adventures</h1>
+    <p><strong>Wealthy Adventures</strong> is a platform to make personal finance feel easy, empowering, and actionable. We aim to break down complex money topics into simple, fun, and impactful content for everyday people. Whether you're new to budgeting, want to start investing, or just need better money habits — we're here for your growth.</p>
+  </div>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4>Company</h4>
+        <a href="#">About Us</a><br>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a><br>
+        <a href="#">Terms of Service</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="https://instagram.com" target="_blank">Instagram</a><br>
+      </div>
+      <div class="subscribe-box">
+        <h4>Subscribe</h4>
+        <p>Subscribe to our newsletter</p>
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <p>© 2025 Wealthy Adventures by Jagruti Goswami. All rights reserved.</p>
+  </footer>
+</body>
+</html>
