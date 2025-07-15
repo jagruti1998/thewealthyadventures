@@ -1,2 +1,2 @@
 # thewealthyadventures
-thewealthyadventures
+thewealthyadventuress
